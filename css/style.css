@@ -1,0 +1,29 @@
+/*global style*/
+body{
+    font-family: arial;
+    color:#333;
+    background-color: #f5f5f5
+}
+/*header style*/
+h3{
+    font-size: 1.56rem
+}
+/*jumbotron style*/
+.jumbotron {
+    padding: 3rem 3rem;
+}
+/*form style*/
+label{
+    font-weight: 600;
+    font-size: 17px
+}
+.alert{
+    display: none;
+}
+.item{
+    background: #E9ECEF;
+    color: #555;
+    margin-bottom: 20px;
+    border-radius:.3rem;
+    overflow: hidden;
+}

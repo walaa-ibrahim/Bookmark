@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Title -->
+    <title>BookMarker</title>
+    <!-- bootstrap files Required -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css files Required -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bookmarker">
+        <div class="container">
+             <!--Header of Bookmarker-->
+            <h3 class="text-muted text-capitalize my-3">bookmarker</h3>
+            <hr class="my-4">
+            <!--start jumbotron-->
+            <div class="jumbotron text-center">
+                <h3 class="text-capitalize mb-4">bookmarke your favorite site</h3>
+                <!--form of bookmark-->
+                <form id="myForm">
+                    <div id="webName" class="form-group my-4">
+                        <label for="siteName" class="text-capitalize mb-2">site name</label>
+                        <input type="text" id="siteName" class="form-control" placeholder="Website Name">
+                        <div class="alert alert-danger mt-2 text-left">Please enter the valid Website Name</div>
+                    </div>
+                    <div id="webUrl" class="form-group my-4">
+                        <label for="siteUrl" class="text-capitalize mb-2">site url</label>
+                        <input type="text" id="siteUrl" class="form-control" placeholder="Website Url">
+                        <div class="alert alert-danger mt-2 text-left">Please enter the valid url</div>
+                    </div>
+                    <button type="submit" class="btn btn-info mt-1 px-4">Submit</button>
+                </form><!--end form-->
+            </div><!--end jumbotron-->
+            <!--start Result section-->         
+            <div id="bookmarkResult">
+
+            </div>
+            <!--end Result section-->
+            <hr>
+            <!--start footer-->
+            <footer class="footer">
+                <p class="text-muted text-s-center"> &copy; 2019 Bookmarker, Inc.</p>
+            </footer><!--end footer-->
+        </div><!--end container-->
+    </div><!--end bookmark-->
+    <!-- js files Required -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
